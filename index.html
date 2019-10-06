@@ -6,6 +6,7 @@
         <script src = "scripts.js"></script>
     </head>
     <body>
+        <!-- TOP SECTION -->
         <div style="text-align: center;">
             <h1>Flight Simulator</h1>
             <h2>Current Flight Status</h2>
@@ -13,28 +14,32 @@
             <h2>Shuttle Trajectory</h2>
         </div>
         <div style="text-align: center; height: 400px; width: 100%;" >
+            <!-- LEFT SECTION not used for Class 14 studio -->
             <div style="text-align: center; display: inline-block;">
                 <h3>Fuel Levels</h3>
                 <p>Tank Full</p>
                 <h3>Astronaut Chat</h3>
                 <p>Houston, we are ready when you are!</p>
             </div>
+            <!-- CENTER SECTION -->
             <div id = "shuttleBackground" style = "position: relative;">
-                <img src = "LaunchCode_rocketline_white.png" height = "75" width = "75" id = "rocket"/>
+                <img src = "LaunchCode_rocketline_white.png" height = "75" width = "75" id = "rocket" />
             </div>
+            <!-- RIGHT SECTION -->
             <div style = "text-align: center; display: inline-block;">
-                    <button>Up</button>
-                    <button>Down</button>
-                    <button>Right</button>
-                    <button>Left</button>
+                    <button id = "up">Up</button>
+                    <button id = "down">Down</button>
+                    <button id = "right">Right</button>
+                    <button id = "left">Left</button>
                     <h3>Space Shuttle Height</h3>
                     <p id='spaceShuttleHeight'>0</p><p style = "display: inline-block;"> miles</p>
             </div>
         </div>
+        <!-- BOTTOM SECTION -->
         <div style="text-align: center;">
             <button id = "takeoff">Take off</button>
             <button id = "landing">Land</button>
             <button id = "missionAbort">Abort Mission</button>
-    </div>
+        </div>
     </body>
 </html>

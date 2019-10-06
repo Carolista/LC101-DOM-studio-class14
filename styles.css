@@ -4,3 +4,9 @@
     height: 80%;
     width: 40%;
 }
+
+#rocket {
+    position: absolute; 
+    bottom: 0px; /* Changed original position to start at bottom (landed) as an accurate visual respresentation. */
+    left: 50px; /* arbitrary since width of background is variable */
+}
